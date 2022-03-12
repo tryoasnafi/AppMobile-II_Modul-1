@@ -1,6 +1,7 @@
 fun main() {
     // Program menghitung jumlah huruf vokal dan konsonan pada sebuah kalimat
     var sentence = "A programmer gets stuck in the shower because the instructions on the shampoo were: Lather, Wash, and Repeat."
+    println(sentence)
     sentence = sentence.lowercase() // mengubah seluruh kata menjadi huruf kecil
 
     // Wadah penyimpanan total huruf vokal dan konsonan
@@ -24,6 +25,7 @@ fun main() {
     println("Other characters: ${sentence.length - (vowelCount + consonantCount)}") // Hitung karakter yang bukan vokal maupun konsonan
 
     /* Output:
+    A programmer gets stuck in the shower because the instructions on the shampoo were: Lather, Wash, and Repeat.
     Vowels: 33
     Consonants: 55
     Other characters: 21
